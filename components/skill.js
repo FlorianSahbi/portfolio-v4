@@ -1,27 +1,26 @@
 function Skill({ icon, title, description, subtitle1, languages, subtitle2, tools }) {
   return (
-    <div className="h-full w-full py-16 px-8 space-y-8">
-      <img className="mx-auto" src={icon} />
-      <p className="font-bold text-xl">
+    <div className="h-full w-full py-16 px-8">
+      <img className="mx-auto mb-8" src={icon} />
+      <p className="font-bold text-xl mb-4">
         {title}
       </p>
-      <p className="font-extralight">
+      <p className="font-extralight mb-8">
         {description}
       </p>
 
-      <p className="text-blue-900">
+      <p className="text-blue-900 mb-4">
         {subtitle1}
       </p>
 
-      <p className="font-extralight">
+      <p className="font-extralight mb-8">
         {languages}
       </p>
 
-      <p className="text-blue-900 -mb-0">
+      <p className="text-blue-900 mb-4">
         {subtitle2}
       </p>
-
-      <ul className="flex flex-col space-y-2 text-gray-900 font-extralight">
+      <ul className="flex flex-col space-y-1 text-gray-900 font-extralight">
         {tools.map(tool => {
           return (
             <li>
