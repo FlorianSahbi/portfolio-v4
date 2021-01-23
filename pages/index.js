@@ -99,7 +99,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid max-w-6xl mx-auto grid-cols-3 gap-16 py-16">
+      <div className="grid max-w-6xl mx-auto grid-cols-3 gap-16 py-16 sm:grid-cols-1 sm:px-32">
         <Card />
         <Card />
         <Card />
