@@ -41,7 +41,7 @@ export default function Home() {
         <title>Florian Sahbi - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="py-8 px-8 h-screen bg-gray-50 w-screen">
+      <header className="h-screen bg-gray-50 w-screen">
         <div className="my-6 mx-6 absolute inset-0 border-8 border-blue-900"></div>
         <div className="flex flex-col h-full w-full justify-center text-center">
           <h1 className="text-3xl font-extrabold">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
@@ -50,7 +50,7 @@ export default function Home() {
       </header>
 
 
-      <div className="w-full bg-gradient-to-t from-blue-800 to-blue-900 text-center text-gray-50 p-24 space-y-5">
+      <div className="w-full bg-gradient-to-t from-blue-800 to-blue-900 text-center text-gray-50 space-y-5">
         <p className="font-bold text-3xl">
           Hi, I’m Florian. Nice to meet you.
         </p>
@@ -60,7 +60,7 @@ export default function Home() {
       </div>
 
 
-      <div className="divide-x divide-gray-100 m-8 grid grid-cols-3 border-2 border-gray-100 shadow-xl rounded-xl max-w-6xl mx-auto text-center">
+      <div className="divide-x divide-gray-100 m-8 grid grid-sm:cols-3 border-2 border-gray-100 shadow-xl rounded-xl max-w-6xl mx-auto text-center">
         <Skill
           icon="https://mattfarley.ca/img/icons/designer.svg"
           title="Designer"
@@ -99,7 +99,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid max-w-6xl mx-auto grid-cols-1 px-32 gap-16 py-16 sm:grid-cols-2 sm:px-5 lg:grid-cols-3">
+      <div className="">
         <Card />
         <Card />
         <Card />
