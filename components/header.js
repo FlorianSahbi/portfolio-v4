@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <header className="h-screen w-screen bg-gray-50 p-8">
-      <div className="flex flex-col h-full w-full text-center justify-center border-8 border-blue-900 p-4">
+    <header className="h-screen w-screen bg-gray-50 p-4">
+      <div className="flex flex-col h-full w-full text-center justify-center border-8 border-blue-900">
         <h1 className="text-2xl sm:text-5xl font-bold">
           Esthetic, Front-end, Back-end Developer
         </h1>
