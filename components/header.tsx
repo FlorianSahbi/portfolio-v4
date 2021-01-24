@@ -1,14 +1,20 @@
 import { VscArrowDown } from 'react-icons/vsc';
 
-function Header({ src }) {
+interface HeaderInterface {
+  title: string;
+  subtitle: string;
+  src: string;
+}
+
+function Header({ title, subtitle, src }: HeaderInterface) {
   return (
     <header className="relative h-screen w-screen bg-gradient-to-b from-gray-50 to-gray-100 p-4 dark:from-gray-900 dark:to-gray-800">
       <div className="flex flex-col h-full w-full text-center justify-center border-8 border-blue-900 dark:border-yellow-100">
         <h1 className="text-2xl sm:text-5xl font-bold dark:text-yellow-50">
-          Front-end Developer
+          {title}
         </h1>
         <p className="mt-5 text-xl font-extralight text-blue-900 dark:text-yellow-100">
-          I love what I do.
+          {subtitle}
         </p>
         <img className="mt-10 border-2 p-1 border-blue-900 dark:border-yellow-100 block rounded-full w-36 h-w-36 object-cover mx-auto" alt={`header-${src}`} src={src} />
       </div>
