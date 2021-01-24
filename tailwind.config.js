@@ -1,15 +1,11 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: "class", // or 'media' or 'class'
+  purge: ['./pages/**/*.js', './components/**/*.js', './pages/**/*.tsx', './components/**/*.tsx' ],
+  darkMode: "class",
   theme: {
     extend: {},
   },
   variants: {
-    extend: {
-      inset: ["hover", "group-hover"],
-      transitionProperty: ['hover', 'group-hover'],
-      translate: ['hover', 'group-hover'],
-    },
+    extend: {},
   },
   plugins: [],
 }
