@@ -51,7 +51,9 @@ function Skill({ icon, title, description, subtitle1, languages, subtitle2, tool
       >
         {tools.map(tool => {
           return (
-            <li>
+            <li
+              key={`tool-${tool}`}
+            >
               {tool}
             </li>
           )

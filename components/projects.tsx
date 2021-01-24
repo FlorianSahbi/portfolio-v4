@@ -16,7 +16,10 @@ function Projects() {
       <div className="dark:bg-gray-800 grid grid-cols-1 gap-4 pb-4 px-4 sm:grid-cols-3">
         {projects.map(({ src }: ProjectInterface) => {
           return (
-            <Card src={src} />
+            <Card
+              key={`card-${src}`}
+              src={src}
+            />
           )
         })}
       </div>

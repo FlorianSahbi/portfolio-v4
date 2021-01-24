@@ -44,6 +44,7 @@ function Skills() {
           }: SkillInterface) => {
             return (
               <Skill
+                key={`${icon}-${title}-${subtitle2}`}
                 icon={icon}
                 title={title}
                 description={description}
