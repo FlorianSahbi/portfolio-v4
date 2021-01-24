@@ -1,8 +1,8 @@
 import { createContext, useState, useEffect } from "react";
 
-
 const getInitialTheme = () => {
   if (typeof window !== 'undefined' && window.localStorage) {
+
     const storedPrefs = window.localStorage.getItem('color-theme');
     if (typeof storedPrefs === 'string') {
       return storedPrefs;
@@ -14,11 +14,9 @@ const getInitialTheme = () => {
     }
   }
 
-  // If you want to use dark theme as the default, return 'dark' instead
   return 'light';
 };
 
-//@ts-ignore
 export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ initialTheme, children }) => {

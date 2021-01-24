@@ -9,7 +9,6 @@ import Projects from '../components/projects';
 
 export default function Home() {
   return (
-    //@ts-ignore
     <ThemeProvider>
       <Head>
         <title>Florian Sahbi - Portfolio</title>
