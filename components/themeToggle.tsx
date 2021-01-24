@@ -1,10 +1,9 @@
 import React from "react";
+import { Theme } from "./themeContext";
 import { MdBrightnessHigh, MdBrightness4 } from 'react-icons/md';
-import { ThemeContext } from './themeContext';
 
 const Toggle = () => {
-  const { theme, setTheme } = React.useContext(ThemeContext);
-
+  const { theme, setTheme } = Theme.useContainer();
   return (
     <div className="fixed z-50 right-10 top-10 transition duration-500 ease-in-out rounded-full p-2">
       {theme === 'dark' ? (
