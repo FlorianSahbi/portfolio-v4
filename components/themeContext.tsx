@@ -18,38 +18,24 @@ const getInitialTheme = () => {
   return 'light';
 };
 
-
-// export const ThemeProvider = ({ initialTheme, children }) => {
-//   const [theme, setTheme] = useState(getInitialTheme);
-
-//   const rawSetTheme = (rawTheme) => {
-//     const root = window.document.documentElement;
-//     const isDark = rawTheme === 'dark';
-
-//     root.classList.remove(isDark ? 'light' : 'dark');
-//     root.classList.add(rawTheme);
-
-//     localStorage.setItem('color-theme', rawTheme);
-//   };
-
-//   if (initialTheme) {
-//     rawSetTheme(initialTheme);
-//   }
-
-//   useEffect(() => {
-//     rawSetTheme(theme);
-//   }, [theme]);
-
-//   return (
-//     <ThemeContext.Provider value={{ theme, setTheme }}>
-//       {children}
-//     </ThemeContext.Provider>
-//   );
-// };
-
 function useTheme(initialState = getInitialTheme) {
   let [theme, setTheme] = useState(initialState)
+
+  const rawSetTheme = (rawTheme) => {
+    const root = window.document.documentElement;
+    const isDark = rawTheme === 'dark';
+
+    root.classList.remove(isDark ? 'light' : 'dark');
+    root.classList.add(rawTheme);
+
+    localStorage.setItem('color-theme', rawTheme);
+  };
+
+  useEffect(() => {
+    rawSetTheme(theme);
+  }, [theme]);
+
   return { theme, setTheme }
 }
- 
+
 export const Theme = createContainer(useTheme);
