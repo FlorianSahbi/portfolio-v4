@@ -3,8 +3,8 @@ import Skills from "../components/skills";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Description from '../components/description';
-import Toggle from '../components/themeToggle';
-import { ThemeProvider } from "../components/themeContext";
+// import Toggle from '../components/themeToggle';
+// import { ThemeProvider } from "../components/themeContext";
 import Projects from '../components/projects';
 
 export default function Home() {
