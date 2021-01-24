@@ -1,45 +1,63 @@
 import RoundButton from "./roundButton";
 import { TiSocialPinterest, TiSocialLinkedin, TiSocialGithub } from "react-icons/ti";
 
-function Footer({ src }) {
+interface FooterInterface {
+  src: string;
+}
+
+function Footer({ src }: FooterInterface) {
   return (
     <footer
-      className="relative bg-gradient-to-b from-blue-800 to-blue-900 text-center py-16 space-y-8 dark:from-gray-800 dark:to-gray-900"
+      className="
+        py-8 
+        space-y-4
+        text-center
+        bg-gradient-to-b 
+        from-blue-800
+        to-blue-900
+        dark:from-gray-800
+        dark:to-gray-900
+        "
     >
       <img
-        className="mx-auto h-24" alt={`round-button-${src}`} src={src}
+        alt={`round-button-${src}`}
+        src={src}
+        className="
+          mx-auto
+          h-32
+          "
       />
       <div
-        className="mx-auto grid grid-cols-3 w-max items-center">
+        className="
+          grid 
+          grid-cols-3 
+          mx-auto 
+          w-max 
+          text-2xl
+          "
+      >
         <RoundButton
-          icon={
-            <TiSocialPinterest
-              className="text-2xl"
-            />
-          }
+          icon={<TiSocialPinterest />}
           href="https://www.pinterest.fr/FlorianSahbi/"
         />
         <RoundButton
-          icon={
-            <TiSocialLinkedin
-              className="text-2xl"
-            />
-          }
+          icon={<TiSocialLinkedin />}
           href="https://www.linkedin.com/in/floriansahbi/"
         />
         <RoundButton
-          icon={
-            <TiSocialGithub
-              className="text-2xl"
-            />
-          }
+          icon={<TiSocialGithub />}
           href="https://github.com/FlorianSahbi/"
         />
       </div>
       <p
-        className="font-extralight text-xs text-white dark:text-gray-500"
+        className="
+          font-extralight
+          text-xs
+          text-blue-500
+          dark:text-gray-500
+          "
       >
-        Made with love by me.
+        Made with love by me
       </p>
     </footer>
   )

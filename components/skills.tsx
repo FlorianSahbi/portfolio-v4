@@ -6,31 +6,31 @@ function Skills() {
   return (
     <div
       className="
-        bg-gray-50
-        dark:bg-gray-800
+      bg-gray-50
+      dark:bg-gray-800
         px-8
         py-8
         "
     >
       <div
         className="
-            grid
-            grid-cols-1
-            rounded-xl
-            shadow-xl
-            text-center
-            border-2 
-            divide-y-2
-            divide-gray-300
-            dark:divide-yellow-50
-            bg-gray-200
-            dark:bg-gray-900
-            border-gray-300
-            dark:border-yellow-50
-            md:grid-cols-3
-            md:divide-x-2
-            md:divide-y-0
-            "
+          grid
+          grid-cols-1
+          rounded-xl
+          shadow-xl
+          text-center
+          border-2 
+          divide-y-2
+          divide-gray-300
+          dark:divide-yellow-50
+          bg-gray-200
+          dark:bg-gray-900
+          border-gray-300
+          dark:border-yellow-50
+          md:grid-cols-3
+          md:divide-x-2
+          md:divide-y-0
+          "
       >
         {skills.map(
           ({
