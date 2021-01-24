@@ -74,7 +74,7 @@ export default function Home() {
           My Recent Work
         </h2>
         <p className="font-extralight text-lg dark:text-yellow-50">
-          Here are a few design projects I've worked on recently. Want to see more? Email me.
+          Here are a few projects I've worked on recently. Want to see more? Email me.
         </p>
       </div>
 
