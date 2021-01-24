@@ -34,6 +34,7 @@ export default function Home() {
       <Head>
         <title>Florian Sahbi - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="My new new new portfolio used to test a new js stack." />
       </Head>
       <Header src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/46507202_2200879606591041_3141919549419421696_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=r4-s85ZFtrgAX_XkQmK&_nc_ht=scontent-cdg2-1.xx&oh=ca9a7f4e4a02228ed3e414730cf208a3&oe=6031B6A5" />
       <Description />
