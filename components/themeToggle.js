@@ -6,7 +6,7 @@ const Toggle = () => {
   const { theme, setTheme } = React.useContext(ThemeContext);
 
   return (
-    <div className="fixed right-10 top-10 transition duration-500 ease-in-out rounded-full p-2">
+    <div className="fixed z-50 right-10 top-10 transition duration-500 ease-in-out rounded-full p-2">
       {theme === 'dark' ? (
         <MdBrightnessHigh
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
