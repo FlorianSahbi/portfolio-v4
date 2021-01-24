@@ -8,7 +8,7 @@ function Header({ src }) {
         <p className="mt-5 text-xl font-extralight text-blue-900 dark:text-yellow-100">
           I love what I do.
         </p>
-        <img className="mt-10 border-2 p-1 border-blue-900 dark:border-yellow-100 block rounded-full w-36 h-w-36 object-cover mx-auto" src={src} />
+        <img className="mt-10 border-2 p-1 border-blue-900 dark:border-yellow-100 block rounded-full w-36 h-w-36 object-cover mx-auto" alt={`header-${src}`} src={src} />
       </div>
     </header>
   )
