@@ -1,7 +1,7 @@
 function Skill({ icon, title, description, subtitle1, languages, subtitle2, tools }) {
   return (
     <div className="h-full w-full py-16 px-8">
-      <img className="mx-auto mb-8 h-20" src={icon} />
+      <img className="mx-auto mb-8 h-20" alt={`skill-${icon}`} src={icon} />
       <p className="font-bold text-xl mb-4 dark:text-yellow-100">
         {title}
       </p>
