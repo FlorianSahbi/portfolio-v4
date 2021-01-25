@@ -13,12 +13,6 @@ function Skill({ icon, title, description, subtitle1, languages, subtitle2, tool
     <div
       className="h-full w-full p-8 text-gray-600 font-extralight"
     >
-      <img
-        loading="lazy"
-        className="mx-auto h-20 mb-8"
-        alt={`skill-${icon}`}
-        src={icon}
-      />
       <h3
         className="font-bold text-xl text-gray-800 dark:text-yellow-100 mb-4"
       >

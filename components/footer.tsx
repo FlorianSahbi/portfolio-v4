@@ -19,15 +19,6 @@ function Footer({ src }: FooterInterface) {
         dark:to-gray-900
         "
     >
-      <img
-        loading="lazy"
-        alt={`round-button-${src}`}
-        src={src}
-        className="
-          mx-auto
-          h-32
-          "
-      />
       <div
         className="
           grid 

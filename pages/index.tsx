@@ -18,7 +18,7 @@ export default function Home() {
       <Header
         title="Front-end Developer"
         subtitle="I love what I do."
-        src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/46507202_2200879606591041_3141919549419421696_n.jpg?_nc_cat=104&ccb=2&_nc_sid=09cbfe&_nc_ohc=r4-s85ZFtrgAX_XkQmK&_nc_ht=scontent-cdg2-1.xx&oh=ca9a7f4e4a02228ed3e414730cf208a3&oe=6031B6A5"
+        src="/pp.jpg"
       />
       <Toggle />
       <Description
@@ -28,7 +28,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Footer
-        src="https://d6ce0no7ktiq.cloudfront.net/images/preview/2018/10/26/design-30574/template-sticker-600x600.png"
+        src="/footer.png"
       />
     </Theme.Provider>
   )

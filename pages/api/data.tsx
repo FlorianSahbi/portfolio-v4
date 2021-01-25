@@ -13,12 +13,12 @@ export interface SkillInterface {
 }
 
 export const projects: ProjectInterface[] = [
-  { src: "https://animeland.fr/wp-content/uploads/2020/02/kiki-jiji.jpg" },
-  { src: "https://www.leparisien.fr/resizer/Ekey4nVHfB657a0M9RiiTSIPYyw=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/WXK2TZGDJ7NAZXFKB2LCK6SW64.jpg" },
-  { src: "https://images.wave.fr/images//your-name-netflix.jpg" },
-  { src: "https://irp-cdn.multiscreensite.com/a0dcaa53/dms3rep/multi/mon-voisin-totoro.jpg" },
-  { src: "https://cdna.artstation.com/p/assets/images/images/018/193/678/large/edward-chee-howl.jpg?1558577574&dl=1" },
-  { src: "https://i.ytimg.com/vi/FJmNKdGrsR0/maxresdefault.jpg" },
+  { src: "/a.jpg" },
+  { src: "/b.jpg" },
+  { src: "/c.jpg" },
+  { src: "/d.jpg" },
+  { src: "/e.jpg" },
+  { src: "/f.jpg" },
 ]
 
 export const skills: SkillInterface[] = [

@@ -1,4 +1,5 @@
 import { VscArrowDown } from 'react-icons/vsc';
+import Image from 'next/image'
 
 interface HeaderInterface {
   title: string;
@@ -55,7 +56,7 @@ function Header({ title, subtitle, src }: HeaderInterface) {
         >
           {subtitle}
         </p>
-        <img
+        <div
           className="
             mt-10 
             border-2 
@@ -65,14 +66,21 @@ function Header({ title, subtitle, src }: HeaderInterface) {
             block 
             rounded-full
             w-36 
-            h-w-36 
+            h-36
             object-cover 
             mx-auto
+            relative
+            overflow-hidden
             "
-          loading="lazy"
-          alt={`header-${src}`}
-          src={src}
-        />
+          >
+          <Image
+            layout="fill"
+            loading="lazy"
+            alt={`header-${src}`}
+            src={src}
+          />
+        </div>
+
       </div>
       <VscArrowDown
         className="
