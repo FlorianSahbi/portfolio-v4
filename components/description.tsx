@@ -5,7 +5,7 @@ interface DescriptionInterface {
 
 function Description({ title, subtitle }: DescriptionInterface) {
   return (
-    <div
+    <main
       className="
         w-full 
         bg-blue-900 
@@ -38,7 +38,7 @@ function Description({ title, subtitle }: DescriptionInterface) {
       >
         {subtitle}
       </p>
-    </div>
+    </main>
   )
 }
 
