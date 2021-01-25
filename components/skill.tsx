@@ -14,6 +14,7 @@ function Skill({ icon, title, description, subtitle1, languages, subtitle2, tool
       className="h-full w-full p-8 text-gray-600 font-extralight"
     >
       <img
+        loading="lazy"
         className="mx-auto h-20 mb-8"
         alt={`skill-${icon}`}
         src={icon}

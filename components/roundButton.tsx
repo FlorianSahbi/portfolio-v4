@@ -33,6 +33,7 @@ function RoundButton({ icon, href }: RoundButtonInterface) {
       <a
         href={href}
         target="_blank"
+        rel="noopener"
       >
         <p
           className="

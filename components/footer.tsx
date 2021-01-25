@@ -20,6 +20,7 @@ function Footer({ src }: FooterInterface) {
         "
     >
       <img
+        loading="lazy"
         alt={`round-button-${src}`}
         src={src}
         className="

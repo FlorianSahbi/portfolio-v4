@@ -69,6 +69,7 @@ function Header({ title, subtitle, src }: HeaderInterface) {
             object-cover 
             mx-auto
             "
+          loading="lazy"
           alt={`header-${src}`}
           src={src}
         />

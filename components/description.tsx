@@ -16,7 +16,7 @@ function Description({ title, subtitle }: DescriptionInterface) {
         p-8 
         "
     >
-      <h3
+      <p
         className="
           mb-4 
           sm:max-w-lg 
@@ -27,7 +27,7 @@ function Description({ title, subtitle }: DescriptionInterface) {
           "
       >
         {title}
-      </h3>
+      </p>
       <p
         className="
           leading-7 
