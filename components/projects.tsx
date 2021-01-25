@@ -16,7 +16,7 @@ function Projects() {
         "
     >
       <div>
-        <h2
+        <p
           className="
             font-bold 
             text-xl
@@ -26,7 +26,7 @@ function Projects() {
             "
         >
           My Recent Work
-        </h2>
+        </p>
         <p
           className="
             font-extralight 

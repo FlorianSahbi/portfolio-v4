@@ -13,22 +13,22 @@ function Skill({ icon, title, description, subtitle1, languages, subtitle2, tool
     <div
       className="h-full w-full p-8 text-gray-600 font-extralight"
     >
-      <h3
+      <p
         className="font-bold text-xl text-gray-800 dark:text-yellow-100 mb-4"
       >
         {title}
-      </h3>
+      </p>
       <p
         className="dark:text-yellow-50 mb-8"
       >
         {description}
       </p>
 
-      <h4
+      <p
         className="font-semibold text-lg text-blue-900 dark:text-yellow-100 mb-4"
       >
         {subtitle1}
-      </h4>
+      </p>
 
       <p
         className="dark:text-yellow-50 mb-8"
@@ -36,11 +36,11 @@ function Skill({ icon, title, description, subtitle1, languages, subtitle2, tool
         {languages}
       </p>
 
-      <h4
+      <p
         className="font-semibold text-lg text-blue-900 dark:text-yellow-100 mb-4"
       >
         {subtitle2}
-      </h4>
+      </p>
       <ul
         className="flex flex-col space-y-1 dark:text-yellow-50"
       >

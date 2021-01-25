@@ -35,7 +35,7 @@ function Header({ title, subtitle, src }: HeaderInterface) {
           dark:border-yellow-100
           "
       >
-        <h1
+        <p
           className="
             text-2xl 
             sm:text-5xl
@@ -44,7 +44,7 @@ function Header({ title, subtitle, src }: HeaderInterface) {
             "
         >
           {title}
-        </h1>
+        </p>
         <p
           className="
             mt-5
