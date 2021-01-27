@@ -35,17 +35,16 @@ function RoundButton({ icon, href }: RoundButtonInterface) {
         target="_blank"
         rel="noopener"
       >
-        Rouned button
-        <p
+        {/* <p
           className="
             text-gray-50 
             dark:text-yellow-50 
             dark:group-hover:text-gray-900 
             group-hover:text-gray-900
           "
-        >
-          {icon}
-        </p>
+        > */}
+        {icon}
+        {/* </p> */}
       </a>
     </div>
   )

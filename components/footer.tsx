@@ -29,15 +29,42 @@ function Footer({ src }: FooterInterface) {
           "
       >
         <RoundButton
-          icon={<TiSocialPinterest />}
+          icon={
+            <TiSocialPinterest
+              className="
+          text-gray-50 
+            dark:text-yellow-50 
+            dark:group-hover:text-gray-900 
+            group-hover:text-gray-900
+          "
+            />
+          }
           href="https://www.pinterest.fr/FlorianSahbi/"
         />
         <RoundButton
-          icon={<TiSocialLinkedin />}
+          icon={
+            <TiSocialLinkedin
+              className="
+                text-gray-50 
+                dark:text-yellow-50 
+                dark:group-hover:text-gray-900 
+                group-hover:text-gray-900
+                "
+            />
+          }
           href="https://www.linkedin.com/in/floriansahbi/"
         />
         <RoundButton
-          icon={<TiSocialGithub />}
+          icon={
+            <TiSocialGithub
+              className="
+          text-gray-50 
+            dark:text-yellow-50 
+            dark:group-hover:text-gray-900 
+            group-hover:text-gray-900
+          "
+            />
+          }
           href="https://github.com/FlorianSahbi/"
         />
       </div>

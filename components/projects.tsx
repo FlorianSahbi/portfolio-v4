@@ -39,6 +39,7 @@ function Projects() {
       </div>
       <div
         className="
+          h-screen
           dark:bg-gray-800 
           grid 
           grid-cols-1 
